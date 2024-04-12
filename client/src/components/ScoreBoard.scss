@@ -1,0 +1,29 @@
+.scoreBoard {
+  display: flex;
+  width: 262px;
+  max-height: 472px;
+  background: rgba(220, 255, 228, 0.2);
+  border: 3px solid #DCFFE4;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px;
+
+  .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin: 12px 0px;
+  }
+
+  .score {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 12px 0px;
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+
+  .title {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 101px;
+
+    .l2 {
+      color: #DCFFE4;
+    }
+
+    .l0 {
+      color: #FEFFCE;
+    }
+
+    .l4 {
+      color: #FFBFBF;
+    }
+
+    .l8 {
+      color: #BDFBFF;
+    }
+  }
+}

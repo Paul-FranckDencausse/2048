@@ -1,0 +1,98 @@
+@import '../styles/variables';
+
+.gameBoard {
+  display: flex;
+  background: $color-board-bg;
+  border-radius: 10px;
+  max-width: 472px;
+  max-height: 472px;
+  margin: 0px 100px;
+  padding: 15px;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    gap: 18px;
+
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      color: $color-board-bg;
+      height: 100px;
+      width: 100px;
+      background-color: $color-box-bg;
+      border-radius: 10px;
+    }
+
+    
+
+    .val-2 {
+      background-color: #DCFFE4;
+    }
+
+    .val-4 {
+      background-color: #FEFFCE;
+    }
+
+    .val-8 {
+      background-color: #FFBFBF;
+    }
+
+    .val-16 {
+      background-color: #BDFBFF;
+    }
+
+    .val-32 {
+      background-color: #96B96F;
+    }
+
+    .val-64 {
+      background-color: #6873B5;
+    }
+
+    .val-128 {
+      background-color: #A24FB1;
+    }
+
+    .val-256 {
+      background-color: #5CA9E8;
+    }
+
+    .val-512 {
+      background-color: #66AE6A;
+    }
+
+    .val-1024 {
+      background-color: #F3E360;
+    }
+
+    .val-2048 {
+      background-color: #E66035;
+    }
+
+    @keyframes merge {
+      0% {
+        transform: scale(0);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .merged {
+      animation: merge 200ms ease 100ms;
+      animation-fill-mode: backwards;
+    }
+  }
+
+}

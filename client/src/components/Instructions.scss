@@ -1,0 +1,45 @@
+.instructions {
+  display: flex;
+  width: 262px;
+  max-height: 472px;
+  background: rgba(220, 255, 228, 0.2);
+  border: 3px solid #DCFFE4;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px;
+
+  .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 30px 0px 38px 0px;
+    text-align: center;
+  }
+
+  .keys {
+    display: flex;
+
+    .key {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #424242;
+      border-radius: 10px;
+      height: 30px;
+      width: 68px;
+      margin: 3px;
+    }
+  }
+}

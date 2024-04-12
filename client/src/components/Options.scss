@@ -1,0 +1,16 @@
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  .newGameButton {
+    border-radius: 30px;
+    font-weight: 700;
+    background: #BDFBFF;
+    color: #3C4669;
+    text-transform: none !important;
+    margin: 10px 0px;
+    width: 200px;
+  }
+}
